@@ -3,7 +3,8 @@
     {   "arguments":"--v=1 --inspect --electron-child-windows",
         "version":"alpha"
     },
-    "shortcut":{
+    "shortcut":
+    {
         "company":"OpenFin",
         "description":"Platform Demo",
         "icon":"https://openfin.github.io/golden-prototype/favicon.ico",
@@ -15,6 +16,7 @@
         },
         "snapshot": {
             "windows":[{
+                "preloadScripts": [{"url": "https://github.com/path/to/file.js"}],
                 "defaultWidth":800,
                 "defaultHeight":600,
                 "defaultLeft":0,
