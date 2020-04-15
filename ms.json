@@ -31,11 +31,12 @@
                             "title":"",
                             "activeItemIndex":0,
                             "content":[{
-                                "type":"component","componentName":"view",
-                                    "componentState":{
-                                            "url":"https://www.office.com/launch/word?auth=2",
-                                            "name":"component_1586958635914"
-                                        },
+                                "type":"component",
+                                "componentName":"view",
+                                "componentState":{
+                                                    "url":"https://www.office.com/launch/word?auth=2",
+                                                    "name":"component_1586958635914"
+                                                },
                                 "isClosable":true,
                                 "reorderEnabled":true,
                                 "title":"view"
@@ -43,5 +44,11 @@
                         }]
                     }
                 }]
+        },
+    "defaultViewOptions": {
+        "experimental": {
+            "childWindows": true
         }
+    }
 }
+
