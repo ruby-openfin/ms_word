@@ -1,0 +1,47 @@
+{
+    "runtime":
+    {   "arguments":"--v=1 --inspect",
+        "version":"alpha"
+    },
+    "shortcut":{
+        "company":"OpenFin",
+        "description":"Platform Demo",
+        "icon":"https://openfin.github.io/golden-prototype/favicon.ico",
+        "name":"Platform Generated App"},
+        "platform":{
+            "uuid":"platform_prototype_generated",
+            "applicationIcon":"https://openfin.github.io/golden-prototype/favicon.ico",
+            "autoShow":false
+        },
+        "snapshot": {
+            "windows":[{
+                "defaultWidth":800,
+                "defaultHeight":600,
+                "defaultLeft":0,
+                "defaultTop":0,
+                "saveWindowState":false,
+                "backgroundThrottling":true,
+                "layout":{
+                    "content":
+                        [{
+                            "type":"stack",
+                            "width":100,
+                            "isClosable":true,
+                            "reorderEnabled":true,
+                            "title":"",
+                            "activeItemIndex":0,
+                            "content":[{
+                                "type":"component","componentName":"view",
+                                    "componentState":{
+                                            "url":"https://www.office.com/launch/word?auth=2",
+                                            "name":"component_1586958635914"
+                                        },
+                                "isClosable":true,
+                                "reorderEnabled":true,
+                                "title":"view"
+                            }]
+                        }]
+                    }
+                }]
+        }
+}
