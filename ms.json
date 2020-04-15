@@ -1,6 +1,6 @@
 {
     "runtime":
-    {   "arguments":"--v=1 --inspect",
+    {   "arguments":"--v=1 --inspect --electron-child-windows",
         "version":"alpha"
     },
     "shortcut":{
@@ -44,11 +44,6 @@
                         }]
                     }
                 }]
-        },
-    "defaultViewOptions": {
-        "experimental": {
-            "childWindows": true
         }
-    }
 }
 
