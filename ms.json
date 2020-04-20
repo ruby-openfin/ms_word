@@ -1,6 +1,6 @@
 {
     "runtime":
-    {   "arguments":"--v=1 --inspect --electron-child-windows",
+    {   "arguments":"--v=1 --inspect",
         "version":"alpha"
     },
     "shortcut":
@@ -12,7 +12,11 @@
         "platform":{
             "uuid":"platform_prototype_generated",
             "applicationIcon":"https://openfin.github.io/golden-prototype/favicon.ico",
-            "autoShow":false
+            "autoShow":false,
+            "defaultViewOptions": {
+                "experimental": {
+                    "childWindows": true
+                }
         },
         "snapshot": {
             "windows":[{
