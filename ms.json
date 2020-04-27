@@ -6,18 +6,20 @@
     "shortcut":
     {
         "company":"OpenFin",
-        "description":"Platform Demo",
+        "description":"MS Word 365",
         "icon":"https://openfin.github.io/golden-prototype/favicon.ico",
-        "name":"Platform Generated App"},
-        "platform":{
-            "uuid":"platform_prototype_generated",
-            "applicationIcon":"https://openfin.github.io/golden-prototype/favicon.ico",
-            "autoShow":false,
-            "defaultViewOptions": {
-                "experimental": {
-                    "childWindows": true
-                }
-        },
+        "name":"MS Word 365"
+    },
+    "platform":{
+        "uuid":"platform_prototype_generated",
+        "applicationIcon":"https://openfin.github.io/golden-prototype/favicon.ico",
+        "autoShow":false,
+        "defaultViewOptions": {
+            "experimental": {
+                "childWindows": true
+            }
+        }
+    },
         "snapshot": {
             "windows":[{
                 "preloadScripts": [{"url": "https://raw.githubusercontent.com/ruby-openfin/ms_word/master/preload-script.js"}],
@@ -52,4 +54,3 @@
                 }]
         }
 }
-
